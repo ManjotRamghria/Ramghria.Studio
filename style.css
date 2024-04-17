@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-image: url('texture.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(224, 153, 19, 0.925);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+    color: rgb(53, 53, 223);
+    font-size: 1.7rem;
+}
+
+
+.left {
+    font-size: 2rem;
+}
+
+main hr {
+    margin-top: 40pxS;
+    border: 0;
+    background: rgb(0, 153, 255);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.firstsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 140px 0px;
+}
+
+.firstsection .btn {
+    border-color: white;
+    border-radius: 3px;
+    margin: 140px 0px;
+    margin-top: 30px;
+}
+
+.leftsection {
+    margin-top: 40px;
+    font-size: 3rem;
+    width: 35%;
+    height: 2.5%;
+}
+
+.leftsection .btn {
+    margin-top: 50px;
+    font-size: 1.4rem;
+    width: 80%;
+    height: 10%;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    padding: 12px;
+    border-color: rgb(0, 174, 255) 2px;
+
+
+}
+
+.rightsection img {
+    margin-top: 50px;
+    height: 500px;
+    width: 480px;
+}
+
+.purple {
+    color: rgb(84, 84, 255);
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 200vh;
+}
+
+.thirdsection img {
+    max-width: 80vw;
+    margin: auto;
+    width: 90vw;
+    height: 80vh;
+}
+
+
+.thirdsection h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-style: italic;
+    color: rgb(240, 170, 40);
+
+}
+
+.thirdsection h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-style: italic;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    stroke: white;
+    stroke-opacity: 85%;
+
+}
+
+.thirdsection h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-style: italic;
+    margin-top: 30px;
+    color: rgb(221, 165, 45);
+    stroke: white;
+    stroke-opacity: 85%;
+}
+
+.thirdsection h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-style: italic;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    stroke: white;
+    stroke-opacity: 85%;
+}
+
+.thirdsection h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-style: italic;
+    margin-top: 30px;
+    color: rgb(221, 165, 45);
+    stroke: white;
+    stroke-opacity: 85%;
+}
+
+.thirdsection h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-style: italic;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    stroke: white;
+    stroke-opacity: 85%;
+}
+
+.four h7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-style: italic;
+    margin-top: 30px;
+    color: rgb(221, 165, 45);
+    stroke: white;
+    stroke-opacity: 85%;
+    height: 50px;
+}
+
+.four h8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-style: italic;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    stroke: white;
+    stroke-opacity: 85%;
+}
+
+.centersection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+.secondmain hr {
+    margin-top: 40px;
+    border: 0;
+    background: rgb(0, 153, 255);
+    height: 1.2px;
+}
+
+.secondmain .box img {
+    display: flex;
+    margin-top: 10px;
+    height: 20%;
+    width: 80vh;
+    margin-left: 28%;
+    margin-bottom: 50px;
+}
+
+.thirdsection img {
+    display: flex;
+    margin-top: 10px;
+    height: 50%;
+    width: 100%;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+#element{
+    margin-bottom: 20px;
+    color: rgb(84, 84, 255);
+}
